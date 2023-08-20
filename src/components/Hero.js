@@ -33,8 +33,8 @@ function Hero() {
           <div className="overlay inset-0 bg-black opacity-30 z-10"></div>
           <div className="overlay right-0 bottom-0 md:inset-0">
             <button
-              className="video hero-cta focus:outline-none z-30 modal-trigger"
               onClick={handleShowModal}
+              className="video hero-cta focus:outline-none z-30 modal-trigger"
             ></button>
           </div>
           <img
